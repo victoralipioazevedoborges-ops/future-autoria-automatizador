@@ -1,0 +1,15 @@
+:root{--bg:#f6f3ec;--ink:#1d1b16;--acc:#8a1c1c;--mut:#6b655a}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
+header{border-bottom:3px double var(--ink);padding:2.2rem 1rem 1rem;text-align:center}
+header small{letter-spacing:.3em;text-transform:uppercase;color:var(--acc);font-family:Helvetica,Arial,sans-serif}
+h1{font-size:2.3rem;margin:.4rem 0}nav{font-family:Helvetica,Arial,sans-serif;margin-top:.8rem}
+nav a{color:var(--ink);margin:0 .8rem;text-decoration:none;border-bottom:1px solid var(--acc)}
+main{max-width:860px;margin:auto;padding:1.5rem}h2{border-left:6px solid var(--acc);padding-left:.6rem}
+.ficha{border:1px solid var(--ink);padding:1rem 1.4rem;background:#fff}
+.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem}
+figure{margin:0;background:#fff;border:1px solid #ccc;padding:.4rem}figure img{width:100%}figcaption{font-size:.85rem;color:var(--mut)}
+video{width:100%;background:#000}code{font-size:.85rem;word-break:break-all}
+footer{text-align:center;color:var(--mut);font-size:.85rem;padding:2rem;border-top:1px solid #ccc}
+.tx p{margin:.3rem 0}.tx b{font-family:monospace;color:var(--acc)}
+.
+.semimg{border:1px dashed #999;padding:1rem;color:#666;font-size:.9em}
